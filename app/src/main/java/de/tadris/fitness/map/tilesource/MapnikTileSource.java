@@ -34,8 +34,8 @@ public class MapnikTileSource extends FitoTrackTileSource {
     private static final int ZOOM_LEVEL_MIN = 0;
     private static final String NAME = "OSM Mapnik";
 
-    private MapnikTileSource(String[] hostNames, int port) {
-        super(hostNames, port, (byte) ZOOM_LEVEL_MIN, (byte) ZOOM_LEVEL_MAX);
+    private MapnikTileSource(String[] hostnames, int port) {
+        super(hostnames, port, (byte) ZOOM_LEVEL_MIN, (byte) ZOOM_LEVEL_MAX);
     }
 
     @Override
